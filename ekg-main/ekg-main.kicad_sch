@@ -1,0 +1,247 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9003844d-7dc2-4fc1-b4e6-4d041b22243c")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 170.18 95.25) (xy 172.72 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a0e007c-26c9-47ae-a423-cd73e0250f35")
+	)
+	(wire
+		(pts
+			(xy 170.18 90.17) (xy 172.72 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f0a129-d4c7-46cf-b95d-66a588caca95")
+	)
+	(wire
+		(pts
+			(xy 170.18 92.71) (xy 172.72 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c55eb3c9-1aa6-4688-9de7-680eb8d390b7")
+	)
+	(wire
+		(pts
+			(xy 170.18 87.63) (xy 172.72 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdc0534d-87c4-4f96-8e70-8c17a848d46a")
+	)
+	(sheet
+		(at 137.16 83.82)
+		(size 33.02 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "344cf82c-78a6-43cb-a3ad-31a4d9091159")
+		(property "Sheetname" "control"
+			(at 137.16 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "control.kicad_sch"
+			(at 137.16 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "lod+" input
+			(at 170.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "daa99474-2496-4858-b534-1dd9449f0591")
+		)
+		(pin "lod-" input
+			(at 170.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bbbc8573-70cd-404f-a5e7-761bb041d32a")
+		)
+		(pin "~{sdn}" input
+			(at 170.18 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ad65de27-70aa-4640-93a3-c9bd5918bd46")
+		)
+		(pin "out" input
+			(at 170.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5ee9515d-c709-45da-bb4c-75d6dc3abbce")
+		)
+		(instances
+			(project "ekg-main"
+				(path "/9003844d-7dc2-4fc1-b4e6-4d041b22243c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 83.82)
+		(size 53.34 15.875)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b942e8b6-aa3a-4cf4-9fc5-aaac0e69db27")
+		(property "Sheetname" "power"
+			(at 76.2 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 76.2 100.2796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ekg-main"
+				(path "/9003844d-7dc2-4fc1-b4e6-4d041b22243c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 83.82)
+		(size 30.48 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "da258932-bff6-4fc0-952a-02de24152b60")
+		(property "Sheetname" "ekg"
+			(at 172.72 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ekg.kicad_sch"
+			(at 172.72 100.2796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "lod+" input
+			(at 172.72 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7451851b-5bcb-4ffe-a904-f12626c6f405")
+		)
+		(pin "lod-" input
+			(at 172.72 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "818d6195-a418-475c-adcb-08eb33307793")
+		)
+		(pin "~{sdn}" input
+			(at 172.72 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2543a84c-0f47-4f87-95e8-179d0c8fa579")
+		)
+		(pin "out" input
+			(at 172.72 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "473b3dda-ee49-4a18-8e59-b74f9592a70f")
+		)
+		(instances
+			(project "ekg-main"
+				(path "/9003844d-7dc2-4fc1-b4e6-4d041b22243c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
